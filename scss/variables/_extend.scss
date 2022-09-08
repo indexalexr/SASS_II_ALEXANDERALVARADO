@@ -1,0 +1,35 @@
+//Mixin
+@mixin parrafo {
+    background-color: $fondomixes;
+    font-family: $extrali;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center
+}
+.parrafo1{
+    @include parrafo;
+}
+.parrafo2{
+    @include parrafo;
+}
+.parrafo3{
+    @include parrafo;
+}
+
+//Extend
+.cardnew2{
+    @extend .card;
+    max-width: 1000px;
+    text-align: center;
+    > img {
+        @extend .avatar;
+    } 
+    > h3 {
+        @extend .titles;
+    }
+    > small {
+        @extend .small;
+    }
+}

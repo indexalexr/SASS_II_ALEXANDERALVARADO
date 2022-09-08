@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  //Hojas Parciales 
+@import'../scss/variables/colores';
+@import'../scss/variables/typo';
+@import'../scss/variables/extend';
+@import'../scss/variables/tamanios';
+@import'../scss/secciones/header';
+@import'../scss/secciones/indexmain';
+@import'../scss/secciones/mainIndex';
+@import'../scss/secciones/footer';
+@import'../scss/secciones/body';
+@import'../scss/media_querys/pc';

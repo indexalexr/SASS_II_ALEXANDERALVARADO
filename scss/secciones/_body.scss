@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: $fondobody;
+    position: relative;
+    padding-bottom: 4em;
+    min-height: 100vh;
+
+    .promo {
+        background: black;
+        color: white;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .inscribete {
+        border: 1px solid black;
+        background: #007bc6;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-style: italic;
+        font-stretch: initial;
+        margin-bottom: 0px;   
+    }
+}

@@ -1,0 +1,58 @@
+footer{
+    background-color: $fondofooter;
+}
+
+footer{
+    .pie-pagina{
+        width: 100%;
+    }
+    .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
+    }
+    .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 150px;
+        }
+    }
+    h2{
+        color: black;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    p{
+        color: black;
+        margin-bottom: 10px;
+    }
+    .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color:#9e9e9e ;
+        text-align: center;
+        transition: all 300ms ease;
+    }
+    .grupo-2{
+        background-color: $fondopie;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+        &:small{
+            font-size: 15px;
+        }
+    }
+}

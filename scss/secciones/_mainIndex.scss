@@ -1,0 +1,39 @@
+.titulo{
+   text-align: center;
+}
+
+.probando{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardnew2{
+    background: floralwhite;
+    border-radius: 4px;
+    padding: 17px;
+    box-shadow: 2px 2px 12px 0px rgba(0,0,0,1) ;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.titles{
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 8px;
+    opacity: 0.85;
+}
+
+.small{
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.75;
+}
+
+.ceo{
+    display: flex;
+    justify-content: center;
+}
