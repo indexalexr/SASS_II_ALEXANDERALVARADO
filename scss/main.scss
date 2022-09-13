@@ -3,13 +3,14 @@
     padding: 0;
   }
 
-  //Hojas Parciales 
+  /* ------------------------------------------------------- VARIABLES ---------------------------------------------------------------------*/ 
 @import'../scss/variables/colores';
-@import'../scss/variables/typo';
 @import'../scss/variables/extend';
-@import'../scss/secciones/header';
-@import'../scss/secciones/indexmain';
-@import'../scss/secciones/mainIndex';
-@import'../scss/secciones/footer';
-@import'../scss/secciones/body';
-@import'../scss/media_querys/pc';
+@import'../scss/variables/typo';
+  /* ------------------------------------------------------- SECCIONES ---------------------------------------------------------------------*/ 
+@import'../scss/secciones/1header';
+@import'../scss/secciones/2body';
+@import'../scss/secciones/3indexmain';
+@import'../scss/secciones/4mainIndex';
+@import'../scss/secciones/5footer';
+@import'../scss/media_querys/media';

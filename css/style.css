@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0; }
 
+/* ------------------------------------------------------- VARIABLES ---------------------------------------------------------------------*/
 .parrafo1 {
   background-color: bisque;
   font-family: "Poppins", sans-serif;
@@ -34,11 +35,33 @@
   max-width: 1000px;
   text-align: center; }
 
+/* ------------------------------------------------------- SECCIONES ---------------------------------------------------------------------*/
 header .nav-link {
   color: black; }
   header .nav-link:hover {
     font-weight: lighter;
     font-size: 19px; }
+
+body {
+  margin: 0;
+  background-color: #f5f7f9;
+  position: relative;
+  padding-bottom: 4em;
+  min-height: 100vh; }
+  body .promo {
+    background: black;
+    color: white;
+    text-align: center;
+    font-style: italic; }
+  body .inscribete {
+    border: 1px solid black;
+    background: #007bc6;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-stretch: initial;
+    margin-bottom: 0px; }
 
 main .incentivo {
   display: flex;
@@ -183,27 +206,6 @@ footer .grupo-2 {
   color: #fff; }
   footer .grupo-2:small {
     font-size: 15px; }
-
-body {
-  margin: 0;
-  background-color: #f5f7f9;
-  position: relative;
-  padding-bottom: 4em;
-  min-height: 100vh; }
-  body .promo {
-    background: black;
-    color: white;
-    text-align: center;
-    font-style: italic; }
-  body .inscribete {
-    border: 1px solid black;
-    background: #007bc6;
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
-    font-style: italic;
-    font-stretch: initial;
-    margin-bottom: 0px; }
 
 /* MEDIA QUERYS */
 @media (max-width: 910px) {
