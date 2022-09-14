@@ -70,39 +70,32 @@
     <p class="inscribete"> Suscribite y obtené 10% de descuento </p>
 
     <main>
-        <div class="formulario">
-            <h1> Formulario De Contacto </h1>
-            <hr>
-            <div>
-            <form class="red" action="#">
-                <label for="name">Nombre y Apellido
-                <input type="text" placeholder="Nombre y apellido" name="Nombre"></label>
-            </div>
-                <br>
-            <div>
-                <label for="edad">Edad</label>
-                <input type="date" name="Edad">
-            </div>
-            <br>
-            <div>
-                <form>
-                    <textarea name="" id="" cols="40" rows="10" placeholder="Dejanos tus comentarios"></textarea>
-                    <br>
-                    <input type="submit" name="Enviar">
+        <section class="contact">
+            <div class="contact__right-side">
+                <h1 class="contact__title" style="align-items:center;">CONTACTO</h1>
+                <form action="" class="contact__form-wrapper">
+                    <div class="contact__input-line">
+                        <label for="name" class="contact__label">Nombre</label>
+                        <input type="text" name="name" id="name" class="contact__input">
+                    </div>
+                    <div class="contact__input-line">
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="email" name="email" id="email" class="contact__input">
+                    </div>
+                    <div class="contact__input-line">
+                        <label for="subject" class="contact__label">Motivo</label>
+                        <input type="text" name="subject" id="subject" class="contact__input">
+                    </div>
+                    <div class="contact__input-line">
+                        <label for="message" class="contact__label">Mensaje</label>
+                        <textarea type="text" name="message" id="message" class="contact__input--textarea"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="contact__submit-button">
                 </form>
             </div>
-        </div>
-        <hr>
-        <h2 class="titulo">EXTEND</h2>  
-        <hr>
-        <div class="ceo">
-            <div class="cardnew2">
-                <img class="avatar" src="../images/hombreperf.webp" alt="caratula">
-                <p class="titles">Alexander Alvarado</p>
-                <small class="small" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, id?</small>
-            </div>
-        </div>
-        <hr>
+            <br><br>
+        </section>
+        <br>
     </main>
     <!--FOOTER-->
     <footer class="pie-pagina">
