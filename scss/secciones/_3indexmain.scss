@@ -18,6 +18,10 @@ main{
     .card {
         margin-top: 10px;
         width: 17rem;
+        --bs-card-spacer-y: 1rem;
+        --bs-card-spacer-x: 2rem;
+        --bs-card-title-spacer-y: 0.5rem;
+        --bs-card-border-width: 4px;
     }
 
     .parrafos {

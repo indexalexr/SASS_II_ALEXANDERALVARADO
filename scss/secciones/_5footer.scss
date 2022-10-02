@@ -1,11 +1,7 @@
 footer{
-    background-color: $fondofooter;
-}
-
-footer{
-    .pie-pagina{
         width: 100%;
-    }
+        background-color: $fondofooter;
+        position: absolute;
     .grupo-1{
         width: 100%;
         max-width: 1200px;
