@@ -86,9 +86,7 @@ main .card, main .cardnew2 {
 
 main .parrafos {
   margin: 10px 50px 10px 50px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap; }
+  display: flex; }
 
 main .destacados1 {
   display: flex;
@@ -317,7 +315,8 @@ footer {
   transition: all 550ms cubic-bezier(0.1, 0.22, 0.8, 1.13);
   transform-style: preserve-3d; }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -340,6 +339,14 @@ footer {
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(-180deg); }
+
+.card1 {
+  border-radius: 27px;
+  padding: 10px; }
+
+.card2 {
+  border-radius: 27px;
+  padding: 10px; }
 
 /* MEDIA QUERYS */
 @media (max-width: 910px) {
@@ -374,8 +381,21 @@ footer {
   .parrafos {
     margin: 10px 50px 10px 50px;
     display: flex;
-    flex-wrap: nowrap; }
+    flex-wrap: wrap; }
   .parrafos .card, .parrafos .cardnew2 {
     margin-top: 10px; }
   .card, .cardnew2 {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .card-group {
+    margin: 10px 50px 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .card1 {
+    margin-bottom: 10px;
+    margin-right: 0px; }
+  .card2 {
+    margin: 0px 0px 0px 0px; }
+  .contact__submit-button {
+    font-size: 10px;
+    padding: 10px 40px; } }
