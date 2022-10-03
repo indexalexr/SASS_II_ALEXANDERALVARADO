@@ -86,7 +86,8 @@ main .card, main .cardnew2 {
 
 main .parrafos {
   margin: 10px 50px 10px 50px;
-  display: flex; }
+  display: flex;
+  justify-content: center; }
 
 main .destacados1 {
   display: flex;
