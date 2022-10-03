@@ -130,7 +130,8 @@ section {
 .probando {
   display: flex;
   justify-content: space-evenly;
-  border-radius: 27px; }
+  border-radius: 27px;
+  flex-wrap: wrap; }
 
 .cardnew2 {
   background: floralwhite;
