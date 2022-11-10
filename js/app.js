@@ -130,7 +130,7 @@ let comprar = prompt('Desea comprar este conjunto. Responda por si o no?').toLow
       break;
 
     case "2":
-      alert("Le enviaremos un nro de compra para que al retirar la pc, pueda pagar en el local. Valido solo por 24hs");
+      alert("Le enviaremos un nro de compra para que al retirar el conjunto, pueda pagar en el local. Valido solo por 24hs");
       break;  
 
     case "3":
